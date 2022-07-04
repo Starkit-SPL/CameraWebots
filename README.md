@@ -1,2 +1,2 @@
 # CameraWebots
-Reading images from Nao v6 in Webots/
+Reading images from Nao v6 in Webots.
