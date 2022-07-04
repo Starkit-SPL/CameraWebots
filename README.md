@@ -21,3 +21,5 @@ ros2 run nao_lola nao_lola
 cd CameraWebots/
 
 python3 client.py
+
+4. In CameraWebots/results are results
