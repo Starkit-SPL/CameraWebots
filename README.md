@@ -18,6 +18,6 @@ ros2 run nao_lola nao_lola
 
 3. In another terminal:
 
-cd CameraWebots
+cd CameraWebots/
 
 python3 client.py
