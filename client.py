@@ -7,8 +7,8 @@ import time
 import cv2
 import numpy as np
 import struct
-from PIL import Image
-import pickle
+#from PIL import Image
+#import pickle
 import sys
 import shutil
 import os
