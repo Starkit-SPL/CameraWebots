@@ -18,8 +18,10 @@ class ImageMessage:
     def __init__(self, header_, image):
         self.header = header_
         self.image = image
-        self.img_dim = (self.header[-2], self.header[-1])
-        self.bpp = self.header[-3]  # bytes per pixel
+        #self.img_dim = (self.header[-2], self.header[-1])
+        #self.bpp = self.header[-3]  # bytes per pixel
+        self.img_dim = (480, 640)
+        self.bpp = 4  # bytes per pixel
         self.BGRA = np.frombuffer(self.image, dtype=np.uint8).reshape(*self.img_dim, self.bpp)
 
     def save(self, name):
